@@ -5,3 +5,12 @@
 *.vcxproj
 *.filters
 *.user
+
+# Binaries
+bin/
+build/
+binaries/
+
+# CPP CompilerFiles
+*.obj
+*.exe
