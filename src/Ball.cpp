@@ -1,5 +1,4 @@
-// #include "Ball.h"
-#include "include/Ball.h"
+#include "Ball.h"
 
 Ball::Ball(int posX, int posY)
 	: m_Originalx(posX), m_Originaly(posY), m_x(posX), m_y(posY), m_direction(STOP)
