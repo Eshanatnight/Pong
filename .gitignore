@@ -1,0 +1,7 @@
+# IDE and Editor
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.filters
+*.user
