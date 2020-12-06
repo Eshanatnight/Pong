@@ -4,7 +4,6 @@ Ball::Ball(int posX, int posY)
 	: m_Originalx(posX), m_Originaly(posY), m_x(posX), m_y(posY), m_direction(STOP)
 {}
 
-
 void Ball::Reset()
 {
 	m_x = m_Originalx;
@@ -85,9 +84,8 @@ void Ball::Move()
 	}
 }
 
-
 // ostream operator overload for debug purposes
-std::ostream &operator<<(std::ostream &o, const Ball &ball)
+std::ostream& operator<<(std::ostream& o, const Ball& ball)
 {
 	o << "Ball: [ X = " << ball.m_x << " , Y = " << ball.m_y << " ] [ Direction: " << ball.m_direction << " ]\n";
 	return o;
