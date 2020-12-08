@@ -7,9 +7,9 @@ public:
 	Paddle();
 	Paddle(int posX, int posY);
 
-	inline void Reset();
-	inline int getX() const;
-	inline int getY() const;
+	void Reset();
+	 int getX() const;
+	 int getY() const;
 	void moveUp();
 	void moveDown();
 
