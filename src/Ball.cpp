@@ -16,17 +16,17 @@ void Ball::changeDirection(Direction d)
 	m_direction = d;
 }
 
-inline int Ball::getX() const
+int Ball::getX() const
 {
 	return m_x;
 }
 
-inline int Ball::getY() const
+int Ball::getY() const
 {
 	return m_y;
 }
 
-inline Direction Ball::getDirection() const
+Direction Ball::getDirection() const
 {
 	return m_direction;
 }

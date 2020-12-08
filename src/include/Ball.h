@@ -23,9 +23,9 @@ public:
 	Ball(int posX, int posY);
 	void Reset();
 	void changeDirection(Direction d);
-	inline int getX() const;
-	inline int getY() const;
-	inline Direction getDirection() const;
+	 int getX() const;
+	 int getY() const;
+	 Direction getDirection() const;
 	void randomDirection();
 	void Move();
 
