@@ -11,6 +11,10 @@ public:
 	~GameManager();
 
 	void scoreUp(const Paddle* player);
+	void Draw();
+	void Input();
+	void Logic();
+	void Run();
 
 private:
 	int m_width, m_height;
