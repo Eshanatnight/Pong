@@ -10,7 +10,7 @@
 bin/
 build/
 binaries/
-vscode bin/
+vscodebin/
 
 # CPP CompilerFiles
 *.obj
