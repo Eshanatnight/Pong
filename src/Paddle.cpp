@@ -9,18 +9,18 @@ Paddle::Paddle(int posX, int posY)
 	: m_Originalx(posX), m_Originaly(posY), m_x(posX), m_y(posY)
 {}
 
-inline void Paddle::Reset()
+void Paddle::Reset()
 {
 	m_x = m_Originalx;
 	m_y = m_Originaly;
 }
 
-inline int Paddle::getX() const
+ int Paddle::getX() const
 {
 	return m_x;
 }
 
-inline int Paddle::getY() const
+ int Paddle::getY() const
 {
 	return m_y;
 }
