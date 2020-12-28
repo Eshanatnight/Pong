@@ -1,4 +1,5 @@
 #include "GameManager.h"
+// #include <chrono>
 
 GameManager::GameManager(int Width, int Height)
 	: m_quit(false), m_height(Height), m_width(Width), m_up1('w'), m_up2('i'), m_down1('s'), m_down2('k'), m_score1(0), m_score2(0)
@@ -84,7 +85,7 @@ void GameManager::Draw()
 		std::cout << "\xB2";
 	std::cout << std::endl;
 
-	std::cout << "[ Score 1: " << m_score1 << " ]\t\t[ Score 2: " << m_score2 << " ]" << std::endl;
+	std::cout << "[ Player 1: " << m_score1 << " ]\t\t[ Player 2: " << m_score2 << " ]" << std::endl;
 }
 
 void GameManager::Input()
