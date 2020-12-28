@@ -15,3 +15,6 @@ vscodebin/
 # CPP CompilerFiles
 *.obj
 *.exe
+
+# Working Files
+src/include/system.h
