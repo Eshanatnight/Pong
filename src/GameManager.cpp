@@ -1,6 +1,4 @@
 #include "GameManager.h"
-// #include <chrono>
-
 GameManager::GameManager(int Width, int Height)
 	: m_quit(false), m_height(Height), m_width(Width), m_up1('w'), m_up2('i'), m_down1('s'), m_down2('k'), m_score1(0), m_score2(0)
 {
@@ -21,9 +19,6 @@ void GameManager::scoreUp(const Paddle* player)
 		m_score1++;
 	else if (player == Player2)
 		m_score2++;
-
-	else
-		std::cout << "Error [ GameManager.cpp, line 25 ]\n";
 
 	ball->Reset();
 	Player1->Reset();
